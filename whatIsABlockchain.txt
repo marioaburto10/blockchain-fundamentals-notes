@@ -1,0 +1,12 @@
+WHAT IS A BLOCKCHAIN?
+
+- blockchain can provide a single source of truth that is verifiable, tamperproof, and unchageable.
+
+- A Blockchain is a constantly growing ledger that keeps a permanent record of all the transactions that have taken place, in a secure, chronological and immutable way. 
+	- it is a ledger (a file in which business transactions are recorded)
+	- constantly growing
+	- keeps track of all transactions
+	- permanent
+	- secure
+	- chronological
+	- Immutable (As transactions become linked together, they can never be changed)
