@@ -1,0 +1,15 @@
+What are miners?
+
+- A group of people that proccess and confirm transactions.
+
+- They use powerful computers that are specifically designed to mine Bitcoin trnsactions to solve math problems and resolve cryptography issues.
+	- These mathimatical problems ensure that no one is tampering with the data.
+
+- Miners are paid in Bitcoin when they solve these math and cryptography problems.
+
+- The role of a miner is to build the blockchain of records that form the Bitcoin ledger. 
+	- These are blocks and each block contains information of all the transactions that have taken place.
+	- New blocks are added every 10 minutes with all the new transactions.
+
+- As the miners process transactions, they build a block. When the block gets confirmed it gets added to the blockchain of all the other trasactions.
+	- This blockchain goes all the way back to the first transaction known as the Genesis Block on January 3rd, 2009.
