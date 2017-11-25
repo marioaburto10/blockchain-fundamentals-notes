@@ -1,0 +1,16 @@
+What is a Bitcoin?
+
+-A Bitcoin is a digital asset that can be transferred, bought, or sold between parties over the internet.
+
+-It can be used to store value like gold, and therefore it can be used to purchase products and services.
+
+-There are no physical coins.
+
+-No need for a third party to do a transaction. Peer-to-peer transactions.
+
+- Double Spending problem is when copies can be sold as the original and blockchain solves this issue.
+
+-The Bitcoin Network and Blockchain technology verify that no copies are being sold as originals by using a wide decentralized network of computers using math and cryptography. It verifies, confirms, and records each transaction. 
+
+-Data is stored in a wide decentralized network so there is no single point of failure as opposed to having one central database tracking everything.
+	- This eliminates fraud and failure
