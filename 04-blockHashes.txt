@@ -1,0 +1,11 @@
+Block Hashes and building a block in a blockchain
+
+- Miners build blocks and these blocks are added to the blockchain, i.e. Bitcoin Blockchain
+
+- Blocks are composed of a block number, a Nonce (Number used Once), a field called 'data' and has a hash associated with it.
+
+- The hash pertaining to a block should have 4 leading zeros (0000) to make it a valid block, i.e. 0000f727854b50bb95c054b39c1fe5c92e5ebcfa4bcb5dc279f56aa96a365e5a
+
+- If a block's hash does not have 4 leading zeros, it is not valid. 
+	- to make it valid, you have to play with the Nonce until you get the correct Nonce that will give you a valid block.
+	- OR you can just Mine it to get the exact Nonce to get the 4 leading zeros to make it a valid block. 

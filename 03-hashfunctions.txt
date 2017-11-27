@@ -1,23 +1,23 @@
 Hash Functions
 
-	- In cryptocurrency, cryptography is a main component
+- In cryptocurrency, cryptography is a main component
 
-	- Hash generator can be found at http://anders.com/blockchain/hash.html
+- Hash generator can be found at http://anders.com/blockchain/hash.html
 
-	- A cryptographic hash is a digest, or a digital fingerprint of a certain amount of data.
+- A cryptographic hash is a digest, or a digital fingerprint of a certain amount of data.
 
-	- It is an amount of data, alpha-numerically, in a certain length. 
+- It is an amount of data, alpha-numerically, in a certain length. 
 
-	- For every single character of data, there is a cryptographic hash equivalent.
+- For every single character of data, there is a cryptographic hash equivalent.
 
-	- This: 7db9e1dfa7762f606d76d70eca92f489822a2d3b5c94667e477c9b3aa41c85e0 is the SHA256 equivalent to a certain amount of data
+- This: 7db9e1dfa7762f606d76d70eca92f489822a2d3b5c94667e477c9b3aa41c85e0 is the SHA256 equivalent to a certain amount of data
 
-	- SHA is Secure Hash Algorithm and SHA256 is the algorith that is used in Bitcoin.
+- SHA is Secure Hash Algorithm and SHA256 is the algorith that is used in Bitcoin.
 
-	- SHA256 allows you to generate a unique hash for data. 
-		- Same exact data will always create same hash equivalents.
+- SHA256 allows you to generate a unique hash for data. 
+	- Same exact data will always create same hash equivalents.
 
-	- Hashes are one way functions. You can create hashes from some amount of text but there is no way to get the text from a hash.
+- Hashes are one way functions. You can create hashes from some amount of text but there is no way to get the text from a hash.
 
-	- This is different from encryption because encrypted data can be decrypted to retrieve the original data.
-		- Hashing creates a unique fingerprint for data that cannot be reversed to the original data. It is a one way directional.
+- This is different from encryption because encrypted data can be decrypted to retrieve the original data.
+	- Hashing creates a unique fingerprint for data that cannot be reversed to the original data. It is a one way directional.
