@@ -1,4 +1,4 @@
-WHAT IS A BLOCKCHAIN?
+WHAT IS A BLOCKCHAIN? 						
 
 - blockchain can provide a single source of truth that is verifiable, tamperproof, and unchageable.
 

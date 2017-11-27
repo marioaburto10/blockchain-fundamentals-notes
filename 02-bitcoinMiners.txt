@@ -8,7 +8,7 @@ What are miners?
 - Miners are paid in Bitcoin when they solve these math and cryptography problems.
 
 - The role of a miner is to build the blockchain of records that form the Bitcoin ledger. 
-	- These are blocks and each block contains information of all the transactions that have taken place.
+	- These are blocks and each block contains informati on of all the transactions that have taken place.
 	- New blocks are added every 10 minutes with all the new transactions.
 
 - As the miners process transactions, they build a block. When the block gets confirmed it gets added to the blockchain of all the other trasactions.
