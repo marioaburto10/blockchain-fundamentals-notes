@@ -1,11 +1,46 @@
-Block Hashes and building a block in a blockchain
+Block Hashes
 
-- Miners build blocks and these blocks are added to the blockchain, i.e. Bitcoin Blockchain
+	Can be found at https://anders.com/blockchain/block.html
 
-- Blocks are composed of a block number, a Nonce (Number used Once), a field called 'data' and has a hash associated with it.
+	- Miners build blocks and these blocks are added to the blockchain, i.e. Bitcoin Blockchain
 
-- The hash pertaining to a block should have 4 leading zeros (0000) to make it a valid block, i.e. 0000f727854b50bb95c054b39c1fe5c92e5ebcfa4bcb5dc279f56aa96a365e5a
+	- Blocks are composed of a block number, a Nonce (Number used Once), a field called 'data' and has a hash associated with it.
 
-- If a block's hash does not have 4 leading zeros, it is not valid. 
-	- to make it valid, you have to play with the Nonce until you get the correct Nonce that will give you a valid block.
-	- OR you can just Mine it to get the exact Nonce to get the 4 leading zeros to make it a valid block. 
+	- The hash pertaining to a block should have 4 leading zeros (0000) to make it a valid block, i.e. 0000f727854b50bb95c054b39c1fe5c92e5ebcfa4bcb5dc279f56aa96a365e5a
+
+	- If a block's hash does not have 4 leading zeros, it is not valid. 
+		- to make it valid, you have to play with the Nonce until you get the correct Nonce that will give you a valid block.
+		- OR you can just Mine it to get the exact Nonce to get the 4 leading zeros to make it a valid block. 
+
+
+How block hashes work in a Blockchain
+
+	- A block hash linked to another block hash creates a blockchain.
+
+	- Each block hash in a block chain still consists of a block number, Nonce, data, and a hash but it also has a 'Prev' field which stands for Previous Hash.
+
+	- The first block will always have a Prev field value of 0. The second block will have a Prev field value equivalent to the first block's hash value, the third block will have a Prev field value equivalent to the second block's hash value, and so on.
+
+	- If the data value of a block is changed, it will not only make that block invalid but it would also make the rest of the blocks that follow it invalid and would break the blockchain
+		- A new Nonce is needed now to make that block a valid block. You can mine that block to get the correct Nonce value to make it valid but you will also need to mine every other block following that block to make them valid again as well.
+
+	- The four leading zeros in each hash are tied to the dificulty level of the blockchain network. 
+
+	- The difficulty level determines how difficult is it to get the equivalent cryptographic hash for a block to make it valid. 
+
+	- Here the difficulty level requires us to have a hash that is smaller than what we have in the target. We would need a target that has atleast four leading zeros.
+
+	- The difficulty level increases over time as more computing power and hashing is added to the network.
+		- more hashing power means that the difficulty level needs to be increased.
+
+	- The difficulty level is adjusted every two weeks so that the computers that are competing to mine blocks take about 10 minutes to mine a block.
+
+	- Computers are competing for the chance to be rewarded and to be able to put the next block on the block chain.
+
+	- Computers are actually competing to figure out the required Nonce to come up with the cryptographic hash that will be less than the required target for the difficulty level.
+
+	- If someone attacks a block and changes the data to tamper with it, they will break every block all the way to the front of the chain. They would have to have be able to mine the block they changed and every other block following it and would have to be able to do it faster than the rest of the network. They would have to have atleast 51% of the hashing power in the network to be able to validate the new blockchain with the new modifications and this would all have to be done under 10 mins (10 mins is the time that it takes for new blocks to be mined and added to the blockchain).
+		- This makes it easy to see when someone has tampered with a block.
+
+	- Blocks in a Blockchain are linked to each other through the process of cryptographic hashing. Each block is cryptographically hashed and includes the hash from the previous block as part of the hash, this makes it very easy to see if anyone has tampered with any block as changing the value of a hash for a block will automatically "break the chain" and make all the blocks after that block invalid.
+		- This makes it to catch
