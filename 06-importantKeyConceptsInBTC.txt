@@ -1,0 +1,26 @@
+Important Key Concepts In BTC
+
+Bitcoin Transfer of Value
+
+Disintermediated
+	- Regular transactions over the internet require a third party (like a bank) to make sure that there is no double spending and to verify that the transfer of value took place. The bank then keeps a record of all the transactions made through it, on a central database.
+	- However, Bitcoin transactions are Peer-to-Peer made through and verified by the Bitcoin Network. The Bitcoin Network verifies that a valid transaction took place and that there was no double spending. 
+	- This is called didintermediation because it eliminates much of the uneccesary inefficiency that is involved with using a third party.
+	- Disintermediation is the process of reducing or eliminating intermediaries (i.e.. "middle-men") between parties in a transaction. The fact that Bitcoin enables the exchange of value between two parties directly over the Internet without requiring the services of a bank or some other institution is an example of disintermediation.
+
+Distributed
+	- The entire Bitcoin Network runs accross multiple computers around the globe.
+	- There is no single point of failure because multiple computers are running and sharing the work load.
+
+
+Decentralized
+	- There is no central control
+	- There is no central repository of data
+	- No central management telling it what to do
+	- No central point of failure
+	- This also means that there is no centralized authority overlooking at what Bitcoin does like Fiat money and the Federal Reserve.
+
+Trustless
+	- No need to have a third party to bring trust between transactions.
+	- The blockchain enables the trust.
+	- This is called "Distributed Trustless Consensus", meaning that all the nodes agree that a valid transaction took place.
