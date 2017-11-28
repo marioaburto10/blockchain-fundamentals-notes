@@ -27,3 +27,11 @@ The Four Components of Bitcoin
 - Then, the rest of the miner community verifies the validity of the new block that is mined. If your "Proof of Work" proves that you were able to figure out the correct Nonce to satisfy the hash for that block, the block gets added to the Bitcoin blockchain
 
 - For solving that challenge and adding the block, the miner is rewarded some amount of Bitcoin. (Currently 12.5 BTC as of 11/27/17)
+
+
+
+*HELPFUL LINKS TO VIEW REAL TIME TRANSACTIONS AND BLOCKS BEING MINED*
+
+blockchaininformer.com
+blockchain.info
+blockexplorer.com
