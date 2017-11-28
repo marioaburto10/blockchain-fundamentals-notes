@@ -1,0 +1,29 @@
+The Four Components of Bitcoin
+
+1. Software
+	- Bitcoin is software at its core
+	- The software defines what a bitcoin is, what is valid, what is not valid, etc
+
+2. Cryptography
+	- the software uses crytography to regulate the transfer of bitcoin between parties
+	- Used for the creation of new units of bitcoin
+
+3. Hardware
+	- There are thousands of machines around the world running the bitcoin software/client/network
+
+4. Gaming Theory
+	- Bitcoin in essence is a "game" that is run by Bitcoin miners around the world
+
+
+
+
+
+- The Bitcoin software issues a new cryptography challenge appoximately every ten minutes
+
+- The global mining community race to solve the challenge (this is the game part). The challenge is to find the Nonce that will satisfy the hash for that block
+
+- One of those miners will solve the cryptography challenge first.
+
+- Then, the rest of the miner community verifies the validity of the new block that is mined. If your "Proof of Work" proves that you were able to figure out the correct Nonce to satisfy the hash for that block, the block gets added to the Bitcoin blockchain
+
+- For solving that challenge and adding the block, the miner is rewarded some amount of Bitcoin. (Currently 12.5 BTC as of 11/27/17)
