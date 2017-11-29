@@ -1,0 +1,18 @@
+Smart Contracts
+
+Provides Disintermediation
+	- Removes the need of having a third party validate peer-to-peer transactions
+
+Automation
+	- It is a computer program that takes all the concepts of a contract and automates it and builds it on a blockchain
+
+Self Excecuting and Imutable
+	- You can rely on the contractual obligations to be done automatically without worrying that a third party may tamper with it
+	- Reduces cost because a single program runs the transaction/agreement
+
+
+
+The concept of a smart contract was first presented by Nick Szabo in 1994
+	- "A smart contract is a computerized transaction protocol that executes the terms of a contract. The general objectives are to satisfy common contractual conditions (such as payment terms, liens, confidentiality, and even enforcement), minimize exceptions both malicious and accidental, and minimize the need for tursted intermediaries.
+
+	Related economic goals include lowering fraud loss, arbitrations and enforcement costs, and other transaction costs."
