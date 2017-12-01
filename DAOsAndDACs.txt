@@ -1,0 +1,13 @@
+Decentralized Autonomous Organization (DAO)
+
+- Also called Decentralized Autonomous Corporations but DAO is more commonly used because not all organizations are corporations
+
+- Is a collection of smart contracts
+
+- Reaching multiple agreements and they are all self-executing and happening automatically on a Blockchain
+
+- Can have multiple combinations of different parties exchanging value and reaching agreements due to the distributed networks on Blockchain
+
+- Can be used with artificial intelligence since everything is automated
+
+-
