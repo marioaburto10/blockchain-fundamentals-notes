@@ -1,0 +1,17 @@
+Limitations of Blockchain Technology
+
+- Not the right choice for many situations
+
+- It is still in an early stage, not many companies using it.
+
+- Lots of lack of awareness and misconceptions about it
+
+- Limited available technical talent 
+
+- It is immutable. Cannot make any changes of a record. It is tamperproof but does not allow for reversals or modifications
+
+- Key Management. Private keys can be easily lost and may lose assets.
+
+- Scalability. Cannot handle large volumes just yet
+
+- Time to process. In Bitcoin, it takes about 10 mins for all the nodes to reach a consensus to get the transactions out. Not good for banks or microsecond transactions
