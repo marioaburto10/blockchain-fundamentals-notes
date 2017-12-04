@@ -1,0 +1,35 @@
+What is a fork?
+	- A fork takes place when a blockchain splits into two different paths forward.
+
+Hard vs Soft Forks
+	- Hard Fork: Introduces a change that forces everyone to upgrade like Bitcoin Cash
+	- Soft Fork: Introduces change that is backwards compatible. Doesn't need an upgrade like Segragated Witness (SegWit)
+
+- Forks on Bitcoin happen on a regular basis
+
+- When two or more miners solve a block at the same time there are extra chains for a while. Eventually one of the chains wins over the other and the one that lost becomes an orphan block.
+	- Orphan blocks get added to the Mempool where transactions are kept waiting to be confirmed.
+
+Bitcoin Cash hard fork
+	- UAHF: User Activated Hard Fork. Miners decided to implement a hard fork
+	- August 1st 2017, at block #478558
+	- This caused a split chain. If you did not upgrade to the Bitcoin Cash protocol you could not follow along with the Bitcoin Cash chain
+	- Bitcoin Cash allows for 8MB size blocks as opposed to the Bitcoin 1MB size limit
+
+SegWit Soft Fork 
+	- UASF: User Activated Soft Fork
+	- Locked in on 8th August 2017 at block #479,707
+	- Official activation on August 24th at block #481,824
+	- Did not cause a split in the chain
+	- Replaces the block size limit with block weight limit. 
+	- You can still process transactions the old way with the 1MB block size limit
+	- Miners that have upgraded to SegWit would be able to participate in SegWit transactions, miners that did not upgrade would still be on the chain but would not be able to participate in SegWit transactions
+
+What is Segregated Witness(SegWit)?
+	- It is a protocol upgrade that improves scalability without increasing block size
+	- It works to address a vulnerability in Bitcoin called Transaction Malleability
+	- Does not require upgrading to remain on the Blockchain
+	- Did not cause a split in chain
+	- A bitcoin transaction consists of three main components: inpput, amount, and output and must be digitally signed using the owner's private key.
+	- A SegWit transaction differs in that the Digital Signature (called the witness) is segregated into an exended block (it is pulled out of the main block). This frees up about 60-63% of data on the main block. SegWit includes the input and amount of the transaction information as part of the digital signature.
+	- It will lead to a less congested networks and should also reduce transaction fees.
