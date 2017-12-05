@@ -32,4 +32,4 @@ What is Segregated Witness(SegWit)?
 	- Did not cause a split in chain
 	- A bitcoin transaction consists of three main components: inpput, amount, and output and must be digitally signed using the owner's private key.
 	- A SegWit transaction differs in that the Digital Signature (called the witness) is segregated into an exended block (it is pulled out of the main block). This frees up about 60-63% of data on the main block. SegWit includes the input and amount of the transaction information as part of the digital signature.
-	- It will lead to a less congested networks and should also reduce transaction fees.
+	- It will lead to a less congested networks and should also reduce transaction fees
